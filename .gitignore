@@ -1,0 +1,76 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build results
+[Bb]in/
+[Oo]bj/
+out/
+
+# Publish output
+publish/
+
+# NuGet
+*.nupkg
+packages/
+.nuget/
+project.lock.json
+
+# Rider
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Entity Framework Migrations - keep migrations in source control
+
+# ASP.NET Core appsettings (ignore environment-specific and local files, keep appsettings.json)
+appsettings.*.json
+!appsettings.json
+
+# User secrets (if stored in JSON file accidentally)
+secrets.json
+
+# Database files
+*.mdf
+*.ldf
+*.sqlite
+*.db
+*.db-journal
+
+# Logs and test results
+*.log
+TestResults/
+*.trx
+
+# Coverage
+coverage/
+*.coverage
+*.coveragexml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# JetBrains Rider
+*.DotSettings.user
+
+# Temporary files
+*.tmp
+*.temp
+~$*
+
+# Ignore build artifacts from Visual Studio temporary folders
+obj/**/project.assets.json
+
+# Ignore IIS Express settings
+/.vs/**/applicationhost.config
+
+# Ignore published web deploy packages
+*.Publish.xml
+
+# Ignore NuGet artifacts folder created by some builds
+artifacts/
